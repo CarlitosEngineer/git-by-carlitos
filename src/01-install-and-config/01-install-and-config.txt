@@ -1,7 +1,7 @@
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step One: How To Install
-// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 
 - Go to the page, download and install. your choise version.
 - don´t worry use deafult option.
@@ -10,7 +10,7 @@
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step Two: use (terminal-linux or GitBash-windows)
-// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 
 - We need currently config
 
@@ -18,14 +18,14 @@
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step Three: we need to change config, we main data config.
-// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 
     git config --global user.name "YourUserNickName"
     git config --global user.email "YourUserEmailName@Email.com"
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step Four: We will create an SSH password based on your email
-// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 
     ssh-keygen -t ed25519 -C "YourUserEmailName@Email.com"
 
@@ -34,14 +34,20 @@
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step Five: password
-// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 
 - put your public passsword in your github settings account
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step Six: We need to verify the changes
-// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 
     ssh -T git@github.com
 
-// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // Bibliography:
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+
+- https://git-scm.com/downloads
+
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
