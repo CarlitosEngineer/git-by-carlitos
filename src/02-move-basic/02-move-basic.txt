@@ -26,5 +26,23 @@ git clone https://github.com/LearnWithCarlitos/language-git
 note: "-b" = create a new branch if it doesn't exist
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // Asocia tu repositorio local con un repositorio remoto.
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+
+    git remote add origin <URL>
+
+// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- //  Sube los cambios de una rama local al repositorio remoto.
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+
+    git push origin <rama>
+
+// ----- // ----- // ----- // ----- // ----- // ----- //
+// ----- // Descarga y fusiona los cambios del repositorio remoto en tu rama local.
+// ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+
+    git pull origin <rama>
+
+// ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // New Topic
 // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
