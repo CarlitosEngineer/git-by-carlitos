@@ -30,7 +30,9 @@
     ssh-keygen -t ed25519 -C "YourUserEmailName@Email.com"
 
     look for the file in the folder 
-    - C:\Users\YourUserExamplePc\.ssh 
+    - C:\Users\YourUserExamplePc\.ssh
+
+    use the file config for custom your ssh with another name and more
 
 // ----- // ----- // ----- // ----- // ----- // ----- //
 // ----- // Step Five: password
