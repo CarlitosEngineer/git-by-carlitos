@@ -73,8 +73,3 @@
 | `git push origin develop`                 | Subir los cambios a la rama 'develop' en el repositorio remoto     |
 
 ---
-
-## Additional Resources
-
-- [Git Downloads](https://git-scm.com/downloads)
-- [GitHub SSH Key Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
