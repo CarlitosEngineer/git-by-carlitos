@@ -57,40 +57,38 @@ Welcome to this repository, created to help you understand and improve your Git 
 
 ### 01 - Configuration Commands
 
-| Command                                    | Description                                                                 |
-| :----------------------------------------: | :-------------------------------------------------------------------------: |
-| `git config --list`                        | Muestra la configuración actual de Git                                      |
-| `git config --global user.name "YourUserNickName"` | Configura el nombre de usuario global                                |
-| `git config --global user.email "YourUserEmailName@Email.com"` | Configura el correo electrónico global                            |
-| `ssh-keygen -t ed25519 -C "YourUserEmailName@Email.com"` | Genera una clave SSH usando el correo electrónico para identificación |
-| `ssh -T git@github.com`                    | Verifica la conexión SSH con GitHub                                         |
-| `C:\Users\YourUserExamplePc\.ssh`          | Ubicación predeterminada de las claves SSH en Windows                       |
-| `config` (SSH config file)                 | Archivo de configuración SSH personalizado para múltiples hosts             |
+| Command                                    | Description                                                                |
+| :----------------------------------------: | :------------------------------------------------------------------------- |
+| `git config --list`                        | Displays the current Git configuration                                     |
+| `git config --global user.name "YourUserNickName"` | Sets the global username                                         |
+| `git config --global user.email "YourUserEmailName@Email.com"` | Sets the global email address                               |
+| `ssh-keygen -t ed25519 -C "YourUserEmailName@Email.com"` | Generates an SSH key using the email for identification |
+| `ssh -T git@github.com`                    | Verifies SSH connection with GitHub                                        |
+| `C:\Users\YourUserExamplePc\.ssh`          | Default SSH key location on Windows                                        |
+| `config` (SSH config file)                 | Custom SSH configuration file for multiple hosts                           |
 
 ### 02 - Commands List
 
 | Command                                   | Description                                                       |
 | :---------------------------------------: | :---------------------------------------------------------------- |
-| `git branch nameNewBranch`                | Crea una nueva rama                                                |
-| `git branch`                              | Lista todas las ramas locales                                      |
-| `git branch -a`                           | Lista todas las ramas (locales y remotas)                          |
-| `git branch -r`                           | Lista las ramas remotas                                            |
-| `git branch -l`                           | Lista las ramas locales                                            |
-| `git checkout`                            | Cambia a la rama indicada                                          |
-| `git checkout -b nombre-de-la-rama`       | Crea y cambia a la rama nueva                                      |
-| `git checkout nameBranch`                 | Cambia a la rama nombrada                                          |
-| `git checkout develop`                    | Cambia a la rama 'develop'                                         |
-| `git remote -v`                           | Ver el origen del repositorio remoto                               |
-| `git log --oneline`                       | Ver el último commit                                               |
-| `git log --oneline -5`                    | Ver los últimos 5 commits                                          |
-| `git clone <URL>`                         | Clonar un repositorio desde la URL                                 |
-| `git remote add origin <URL>`             | Asociar un repositorio local con un repositorio remoto             |
-| `git push origin <branch>`                | Subir los cambios de una rama local al repositorio remoto          |
-| `git pull origin <branch>`                | Descargar y fusionar los cambios del remoto a tu rama local        |
-| `git push --set-upstream origin <branch>` | Subir una nueva rama que no existe en el repositorio remoto        |
-| `git reset --hard HEAD`                   | Restaurar al último commit de tu rama actual                       |
-| `git merge <feature-branch>`              | Fusionar una rama (ejemplo: `feature/update-project-settings`)     |
-| `git pull origin develop`                 | Actualizar la rama actual con los cambios de 'develop'             |
-| `git push origin develop`                 | Subir los cambios a la rama 'develop' en el repositorio remoto     |
-
----
+| `git branch nameNewBranch`                | Creates a new branch                                              |
+| `git branch`                              | Lists all local branches                                          |
+| `git branch -a`                           | Lists all branches (local and remote)                             |
+| `git branch -r`                           | Lists remote branches                                             |
+| `git branch -l`                           | Lists local branches                                              |
+| `git checkout`                            | Switches to the specified branch                                  |
+| `git checkout -b new-branch-name`         | Creates and switches to a new branch                              |
+| `git checkout nameBranch`                 | Switches to the named branch                                      |
+| `git checkout develop`                    | Switches to the 'develop' branch                                  |
+| `git remote -v`                           | Views the remote repository origin                                |
+| `git log --oneline`                       | Views the latest commit                                           |
+| `git log --oneline -5`                    | Views the last 5 commits                                          |
+| `git clone <URL>`                         | Clones a repository from the URL                                  |
+| `git remote add origin <URL>`             | Links a local repository with a remote repository                 |
+| `git push origin <branch>`                | Pushes changes from a local branch to the remote repository       |
+| `git pull origin <branch>`                | Pulls and merges changes from the remote to your local branch     |
+| `git push --set-upstream origin <branch>` | Pushes a new branch not yet in the remote repository              |
+| `git reset --hard HEAD`                   | Restores to the latest commit in the current branch               |
+| `git merge <feature-branch>`              | Merges a branch (e.g., `feature/update-project-settings`)         |
+| `git pull origin develop`                 | Updates the current branch with changes from 'develop'            |
+| `git push origin develop`                 | Pushes changes to the 'develop' branch in the remote repository   |
