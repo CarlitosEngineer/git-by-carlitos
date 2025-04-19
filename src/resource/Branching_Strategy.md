@@ -1,21 +1,3 @@
-
-PS E:\dev\git-by-carlitos> git branch -a
-* main  // rama ubicado actual              (local)
-  remotes/origin/HEAD -> origin/main        (rama principal del repositorio remoto)
-  remotes/origin/main                       (rama main, pero en remoto)
-PS E:\dev\git-by-carlitos> 
-
-
-
-git clone
-
-
-
-git branch
-git checkout
-
-
-
 # Estrategia de ramificación (branching strategy)
 
 En git existen varias formas y metodos para trabajar y colaborar, pero **existen dos** por encima de todos que se *deben de aprender*, por ser las mas basicas y mas usadas.
