@@ -1,4 +1,4 @@
-# Estrategia de ramificación (branching strategy)
+# 1 - Branching Strategy (Estrategia de ramificación)
 
 En git existen varias formas y metodos para trabajar y colaborar, pero **existen dos** por encima de todos que se *deben de aprender*, por ser las mas basicas y mas usadas.
 
@@ -28,3 +28,12 @@ En git existen varias formas y metodos para trabajar y colaborar, pero **existen
     - **feature**; Sirve para desarrollar **nuevas funciones** ´feature/login-form´. se crea a partir de **develop**
 
     - **release**; Sirve para crear una nueva versión. (Corregir: bugs menores y ajustes finales) se crea a partir de **develop**
+
+# Example
+
+```bash
+PS E:\dev\git-by-carlitos> git branch -a
+* main  // rama ubicado actual              (local, * = Ubicado aqui)
+  remotes/origin/HEAD -> origin/main        (rama principal del repositorio remoto)
+  remotes/origin/main                       (rama main, pero en remoto)
+```

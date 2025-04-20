@@ -1,2 +1,58 @@
-# ignorar esta carpeta
-temp/
+# Ignorar carpetas del sistema operativo
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Ignorar archivos de logs
+*.log
+logs/
+npm-debug.log*
+
+# Ignorar dependencias comunes
+node_modules/
+vendor/
+
+# Ignorar entornos virtuales (Python)
+venv/
+.env/
+*.env
+
+# Ignorar archivos temporales y de respaldo
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignorar archivos de compilación
+dist/
+build/
+out/
+*.class
+*.o
+*.exe
+
+# Ignorar archivos de configuración local
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignorar cobertura de pruebas
+coverage/
+*.lcov
+
+# Ignorar bases de datos locales o exportaciones
+*.sqlite
+*.db
+*.sql
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos generados por sistemas de control de versiones o herramientas externas
+*.tgz
+*.zip
+*.tar.gz
+
+# Ignorar carpetas específicas del proyecto (ejemplo)
+my-secret-folder/
