@@ -9,13 +9,10 @@
 - **Registrar** cambios `git commit -m "feat: agrega validación al formulario de login"`
 - **Empujar** cambios `git push`
 
-- **Borrar** rama **Local** `git branch -d Name_Rama`
-- **Borrar** rama **Remoto** `git push origin --delete Name_Rama`
-
 - **Unir** rama `git merge Name_Rama` then (Repository)
 
-
-- Ligar **rama local** con **rama remota**; Estoy ubicado en `Hotfix` y ingreso `git push -u origin develop` cada push sera de `hotfix` a `develop`.
+- **Borrar** rama **Local** `git branch -d Name_Rama`
+- **Borrar** rama **Remoto** `git push origin --delete Name_Rama`
 
 # áreas de trabajo - (ciclo de vida de los archivos en Git)
 

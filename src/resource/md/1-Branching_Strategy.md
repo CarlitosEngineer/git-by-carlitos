@@ -31,6 +31,8 @@ En git existen varias formas y metodos para trabajar y colaborar, pero **existen
 
 # Example
 
+- Ligar **rama local** con **rama remota**; estoy ubicado en `Hotfix` y ingreso `git push -u origin develop. Cada push será de `hotfix` o `develop`. (Es mala práctica hacerlo, pero le pongo nombres diferentes para que veas la diferencia. La buena práctica es ligarlas con los mismos nombres)
+
 ```bash
 PS E:\dev\git-by-carlitos> git branch -a
 * main  // rama ubicado actual              (local, * = Ubicado aqui)
