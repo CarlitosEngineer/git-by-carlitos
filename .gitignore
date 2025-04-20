@@ -56,3 +56,6 @@ coverage/
 
 # Ignorar carpetas específicas del proyecto (ejemplo)
 my-secret-folder/
+
+# Mio (ignorar)
+temp/
