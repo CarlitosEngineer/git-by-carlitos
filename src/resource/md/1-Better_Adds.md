@@ -1,4 +1,4 @@
-# 6 - Another Adds (Otras Adiciones)
+# 1 - Better_Adds (Mejores Adiciones)
 
 ## 1. **Agregar un archivo específico**
 - `git add archivo.txt`

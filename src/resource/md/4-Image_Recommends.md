@@ -1,1 +1,0 @@
-# 4 - Image Recommends (Imagenes Recomendadas)

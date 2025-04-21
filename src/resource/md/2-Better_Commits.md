@@ -1,4 +1,4 @@
-# 2 - Better Commits (registro de cambios)
+# 2 - Better_Commits (Registro de Cambios)
 
 ```bash
 git commit -m "tipo: descripción breve"
