@@ -56,3 +56,7 @@
 | `git merge <feature-branch>`              | Merges a branch (e.g., `feature/update-project-settings`)         |
 | `git push --set-upstream origin <branch>` | Pushes a new branch not yet in the remote repository              |
 | `git push origin develop`                 | Pushes changes to the 'develop' branch in the remote repository   |
+| `git fetch origin` | |
+| `` | |
+| `` | |
+| `` | |
