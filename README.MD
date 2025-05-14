@@ -60,3 +60,15 @@
 | `` | |
 | `` | |
 | `` | |
+
+## 🧠 Tipos más comunes (estilo [Conventional Commits](https://www.conventionalcommits.org/))
+
+| Tipo       | Uso común                              |
+|------------|----------------------------------------|
+| `feat`     | Nueva funcionalidad                    |
+| `fix`      | Corrección de errores                  |
+| `docs`     | Cambios en documentación               |
+| `style`    | Cambios de formato (espacios, comas...)|
+| `refactor` | Reestructuración de código             |
+| `test`     | Añadir o modificar pruebas             |
+| `chore`    | Tareas menores (scripts, configs...)   |
